@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Nick Jordan's Portfolio</title>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, intitial-scale=1">
+		<link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/styles.css">
+		<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<!--container begins here-->
+		<div class="container-fluid" id="main_working_space">
+			<!--header row starts here-->
+			<div class="row" id="header">
+				<!--logo column here-->
+				<div class="col-md-2" id="logo">
+					<img class="title-logo" src="images/Mauricelogo.png" alt="Nick Jordan's Portfolio">
+				</div>
+				<!--name and job column here-->
+				<div class="col-md-10 text-right text-uppercase" id="namearea">
+					<h1 class="title-super">Nick Jordan</h1>
+					<h4>E-commerce Specialist</h4>
+				</div>
+				<hr>
+			</div>
+			<!--begin second row for main banner-->
+			<div class="row" id="bannerarea">
+				<!--begin column for banner-->
+				<div class="col-md-12" id="mainbanner">
+					<img class="img-responsive" src="images/fullbanner.png">
+				</div>
+			</div>
+			<!--row begins for featured work text-->
+			<div class="row" id="featuredworktitle">
+				<!--show title text for Featured Work-->
+				<div class="col-12" id="featuredworktext">
+					<h2>Featured Work</h2>
+				</div>
+			</div>
+			<!--final row begins for work examples-->
+			<div class="row text-center" id="bottompictures">
+				<!--first work example-->
+				<div class="col-md-4" id="featuredwork1">
+					<img class="img-responsive" src="images/dinos.png" data-toggle="modal" data-target="#project1">
+					<h3 class="text-uppercase project-text">Dinosaurs of EMS</h3>
+					<p class="project-address">www.dinosaursofems.com</p>
+				</div>
+				<!--second work example-->
+				<div class="col-md-4" id="featuredwork2">
+					<img class="img-responsive" src="images/emergencystuff.png" data-toggle="modal" data-target="#project2">
+					<h3 class="text-uppercase project-text">Emergency Training Associates</h3>
+					<p class="project-address">www.emergencystuff.com (permanently offline)</p>
+				</div>
+				<!--final work example-->
+				<div class="col-md-4" id="featuredwork3">
+					<img class="img-responsive" src="images/ccsp.png" data-toggle="modal" data-target="#project3">
+					<h3 class="text-uppercase project-text">Carroll County Screen Printing</h3>
+					<p class="project-address">www.carrollcountyscreenprinting.com (permanently offline)</p>
+				</div>
+			</div>
+		</div>
+		<!--Dinosaurs of EMS Modal-->
+	    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h4 class="modal-title" id="myModalLabel">Dinosaurs of EMS</h4>
+					</div>
+					<div class="modal-body">
+						<img class="img-responsive" src="images/dinos.png">
+						An e-commerce store catering to those who have been in the EMS field since the dinosaurs roamed the earth. This store was built in Magento 1.9, and is actively maintained by me.
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--Emergency Training Associates Modal-->
+		<div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h4 class="modal-title" id="myModalLabel">Emergency Training Associates</h4>
+					</div>
+					<div class="modal-body">
+						<img class="img-responsive" src="images/emergencystuff.png">
+						Emergency Training Associates sold textbooks, apparel and gifts to those who serve in the Emergency Services community. This store held over 8,000 unique products and was hosted on Bigcommerce, Volusion, Yahoo! Stores and more before closing in 2016.
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--Carroll County Screen Printing Modal-->
+		<div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h4 class="modal-title" id="myModalLabel">Carroll County Screen Printing</h4>
+					</div>
+					<div class="modal-body">
+						<img class="img-responsive" src="images/ccsp.png">
+						Carroll County Screen Printing offered custom apparel to both businesses and individuals. Each order was custom made, and using the DecoNetwork service customers were able to create and view mock ups of their t-shirt designs before ordering. This store closed in 2016.
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

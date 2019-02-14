@@ -1,0 +1,65 @@
+body {
+	font-family: 'Lato', sans-serif;
+	color: #7d97ad;
+	max-width:1600px;
+	margin:auto;
+}
+
+h2 {
+	font-weight:bold;
+	font-size:35px;
+	margin-left: 2%;
+}
+
+h4 {
+	margin-top: 10px;
+	font-size:1.25em;
+	font-weight:bold;
+}
+
+hr {
+	border-width:6px;
+	width:100%;
+	border-color:#000;
+}
+
+img {
+	margin:auto;
+}
+
+.text-muted {
+	color: #bcbbbb;
+}
+
+.project-text {
+	font-weight:bold;
+	font-size:2.25em;
+	color:#000;
+}
+
+.project-address {
+	color:#000;
+}
+
+.title-super {
+	font-size: 60px;
+}
+
+.title-logo {
+	margin:20px;
+	max-height:100px;
+}
+
+#namearea {
+	padding-right:20px;
+}
+
+#featuredworktitle {
+	padding-left:20px;
+}
+
+/*h1 {
+	margin-bottom: 10px;
+	font-size:3em;
+	text-align:right;
+}*/
